@@ -1,0 +1,24 @@
+Version 1.0.3
+-------------
+Fixed a bug where you needed one more than the required amount of items to cast
+Fixed a bug where items would not be removed if you had them spread out into multiple stacks
+Fixed a bug where items would not be removed if you had exactly the right amount
+
+Version 1.0.2
+-------------
+Compiled with java 6
+
+Version 1.0.1
+-------------
+Implements major bug fix concerning player names on servers with prefixes.
+
+Version 1.0.0
+-------------
+Implements /spawn
+Implements customizable messaging
+Implements cast time
+Implements cooldown period
+Implements Vault economy costs
+Implements in game item costs
+Implements local cast message
+Implements cast countdown

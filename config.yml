@@ -1,0 +1,30 @@
+# RPSpawn Configuration #
+currencycost: 1 #Cost per teleport
+economyenabled: true #True if you want to use vault for economy interactions
+casttime: 3 #Cast time, in whole seconds
+cooldown: 30 #Wait period after teleporting teleporting to spawn, before user can teleport to spawn again
+itemcost: 5 #Number of specified item to consume on teleport
+itemid: 288 #ID of item to consume on teleport
+localcastdistance: 50 #Distance in blocks that other players will see a player beginning a teleport
+displaycasttime: false #Whether or not a text based countdown should be displayed
+displaycastingtonearbyplayers: true #Disable or enable whether other players see a player begin a teleport
+spellname: "Spawn Gate" #Spell name used in message constructions
+
+# Construction of various messages to be displayed, using the following codes
+# %sn = spell name as defined above
+# %c = cast time, as defined above
+# %cc = currency cost, as defined above
+# %ct = currency type, as defined by your economy plugin DEFAULTS TO "coins" if vault is not installed
+# %p = casting player's name
+# %im = item name of any item cost defined above
+# %ic = item amount of any item cost defined above
+#
+castmessage: "You begin to cast %sn! Please stand still for %c seconds."
+completionmessage: "You have successfully cast %sn, spending %ic %im, and %cc %ct in components."
+interruptmessage: "You have moved and broken your concentration!"
+usagemessage: "Usage: /spawn"
+cooldownmessage: "You are too tired to cast %sn!"
+cooldowncompletemessage: "You can now cast %sn again!"
+externalcast: "%p begins to cast %sn!"
+insufficientfundsmessage: "You don't have enough money to cast %sn."
+insufficientcomponentssmessage: "You do not have enough %im to cast %sn."

@@ -1,0 +1,12 @@
+name: RPSpawn
+main: com.gmail.scottmwoodward.rpspawn.RPSpawn
+version: 1.0.3
+softdepend: [Vault]
+author: Raemis210
+
+commands:
+   spawn:
+      description: Teleports to spawn
+      usage: /spawn
+      permission: rpspawn.command.spawn
+      permission-message: You do not have permission to use /spawn
